@@ -1,0 +1,17 @@
+UniBin 0.0.4 Rev 1B — def function fix
+
+Scope:
+- Fix main-scan button-declaration pass so it skips whole def function bodies.
+- Make int exit / return inside def functions emit valid code for console-only and GUI-importing programs.
+- Preserve the standalone goto function_name; behavior from the previous goto-fix build.
+- Keep version 0.0.4 and leave all library source files unchanged.
+
+Validation performed:
+- Native compiler build with -Wall -Wextra.
+- Console function called by goto.
+- Chained function calls via goto.
+- GUI-importing function/button-handler program compiled.
+- Existing 0.0.4 hello, import, timeout, player, and GUI examples compiled.
+- AddressSanitizer/UndefinedBehaviorSanitizer runs of the three function test inputs.
+
+This is a targeted test-phase revision, not a claim that every UniBin feature is stable.

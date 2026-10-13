@@ -1,0 +1,12 @@
+$import base
+$import player
+
+public void main; {
+def func (audio);
+    console.log("Player library bundled. Replace sample.ogg with an audio file.")
+    audio.play("sample.ogg")
+    console.timeout("1")
+    audio.stop()
+    goto audio;
+}
+return 0;
