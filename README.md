@@ -25,3 +25,4 @@ $import
       .play("file.ext")
       .stop()
 And thats all the sample file is The World Revolving from game Deltarune all audio credits go to Toby Fox.
+Update: Forgot to add that this is Linux Only. Check the readme in the main view and not the general one cuz the formatting here on the main page is trash and thats ot git's fault, I don't know how toformat stuff here, I'm a beginner.
